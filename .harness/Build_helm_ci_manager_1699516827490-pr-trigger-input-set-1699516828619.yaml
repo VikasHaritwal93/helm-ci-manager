@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_helm_ci_manager_1699516827490-pr-trigger-input-set
+  identifier: Build_helm_ci_manager_1699516827490prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_helm_ci_manager_1699516827490
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
