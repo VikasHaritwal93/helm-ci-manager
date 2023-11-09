@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_helm_ci_manager_1699516754501-push-trigger-input-set
+  identifier: Build_helm_ci_manager_1699516754501pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_helm_ci_manager_1699516754501
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
